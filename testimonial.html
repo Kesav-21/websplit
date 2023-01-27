@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial</title>
+    <link href="./css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="./css/styles.css" rel="stylesheet"/>
+    <link href="./css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="./css/themify-icons.css" rel="stylesheet"/>
+    <link href="./css/owl.carousel.css" rel="stylesheet"/>
+</head>
+<body>
+    <section class="testimonial-section bd-bottom padding">
+        <div class="container">
+            <div class="section-heading text-center mb-40">
+                <h2>What People Say</h2>
+                <span class="heading-border"></span>
+                <p>Help today because tomorrow you may be the one who <br> needs more helping!</p>
+            </div><!-- /Section Heading -->
+    <div id="testimonial-carousel" class="testimonial-carousel owl-carousel">
+        <div class="testimonial-item">
+            <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
+            <div class="testi-footer">
+               <img src="img/team-1.jpg" alt="profile">
+                <h4>Jonathan Smith <span>Marketer</span></h4>
+            </div>
+        </div>
+        <div class="testimonial-item">
+            <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
+            <div class="testi-footer">
+               <img src="img/team-2.jpg" alt="profile">
+                <h4>Angelina Rose <span>Designer</span></h4>
+            </div>
+        </div>
+        <div class="testimonial-item">
+            <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
+            <div class="testi-footer">
+               <img src="img/team-3.jpg" alt="profile">
+                <h4>Taylor Swift <span>Developer</span></h4>
+            </div>
+        </div>
+        <div class="testimonial-item">
+            <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
+            <div class="testi-footer">
+               <img src="img/team-4.jpg" alt="profile">
+                <h4>Michel Brown <span>Programer</span></h4>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script src="./js/owl.carousel.min.js"></script>
+<script> $('#testimonial-carousel').owlCarousel({
+    loop: true,
+    margin: 15,
+    autoplay: true,
+    smartSpeed: 500,
+    items: 1,
+    nav: false,
+    dots: true,
+    responsive : {
+        0 : {
+            items: 1,
+        },
+        480 : {
+            items: 2,
+        },
+        768 : {
+            items: 2
+        },
+        992 : {
+            items: 3
+        }
+    }
+}); </script>
+</body>
+</html>

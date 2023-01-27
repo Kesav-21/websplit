@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsor</title>
+    <link href="./css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="./css/styles.css" rel="stylesheet"/>
+    <link href="./css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="./css/themify-icons.css" rel="stylesheet"/>
+    <link href="./css/owl.carousel.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="sponsor-section bd-bottom">
+        <div class="container">
+            <ul id="sponsor-carousel" class="sponsor-items owl-carousel">
+                <li class="sponsor-item">
+                    <img src="img/sponsor-1.png" alt="sponsor-image">
+                </li>
+                <li class="sponsor-item">
+                    <img src="img/sponsor-2.png" alt="sponsor-image">
+                </li>
+                <li class="sponsor-item">
+                    <img src="img/sponsor-3.png" alt="sponsor-image">
+                </li>
+                <li class="sponsor-item">
+                    <img src="img/sponsor-4.png" alt="sponsor-image">
+                </li>
+                <li class="sponsor-item">
+                    <img src="img/sponsor-5.png" alt="sponsor-image">
+                </li>
+                <li class="sponsor-item">
+                    <img src="img/sponsor-6.png" alt="sponsor-image">
+                </li>
+                <li class="sponsor-item">
+                    <img src="img/sponsor-7.png" alt="sponsor-image">
+                </li>
+                <li class="sponsor-item">
+                    <img src="img/sponsor-8.png" alt="sponsor-image">
+                </li>
+            </ul>
+        </div>
+    </div><!-- ./Sponsor Section -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('#sponsor-carousel').owlCarousel({
+        loop: true,
+        margin: 40,
+        autoplay: true,
+        smartSpeed: 500,
+        nav: false,
+        dots: false,
+        responsive : {
+            0 : {
+                items: 2
+            },
+            480 : {
+                items: 3,
+            },
+            768 : {
+                items: 4
+            },
+            992 : {
+                items: 6
+            }
+        }
+    });
+    </script>
+</body>
+</html>

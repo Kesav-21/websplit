@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link href="./css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="./css/styles.css" rel="stylesheet"/>
+    <link href="./css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="./css/themify-icons.css" rel="stylesheet"/>
+    <link href="./css/owl.carousel.css" rel="stylesheet"/>
+</head>
+<body>
+    <section class="events-section bg-grey bd-bottom padding">
+        <div class="container">
+             <div class="section-heading text-center mb-40">
+                 <h2>Upcoming Events</h2>
+                 <span class="heading-border"></span>
+                 <p>Help today because tomorrow you may be the one who <br> needs more helping!</p>
+             </div><!-- /Section Heading -->
+             <div id="event-carousel" class="events-wrap owl-Carousel">
+                 <div class="events-item">
+                     <div class="event-thumb">
+                        <img src="img/events-1.jpg" alt="events">
+                     </div>
+                     <div class="event-details">
+                         <h3>Let's talk about the poor children.</h3>
+                         <div class="event-info">
+                             <p><i class="ti-calendar"></i>Started On: 12:00 PM.</p>
+                             <p><i class="ti-location-pin"></i>Grand Mahal, Dubai 2100.</p>
+                         </div>
+                         <p>Help today because tomorrow you may be the one who needs more helping!</p>
+                         <a href="#" class="default-btn">Read More</a>
+                     </div>
+                 </div><!-- Event-1 -->
+                 <div class="events-item">
+                     <div class="event-thumb">
+                        <img src="img/events-2.jpg" alt="events">
+                     </div>
+                     <div class="event-details">
+                         <h3>Insure clean water to everyone in Africa.</h3>
+                         <div class="event-info">
+                             <p><i class="ti-calendar"></i>Started On: 12:00 PM.</p>
+                             <p><i class="ti-location-pin"></i>Grand Mahal, Dubai 2100.</p>
+                         </div>
+                         <p>Help today because tomorrow you may be the one who needs more helping!</p>
+                         <a href="#" class="default-btn">Read More</a>
+                     </div>
+                 </div><!-- Event-2 -->
+                 <div class="events-item">
+                     <div class="event-thumb">
+                        <img src="img/events-3.jpg" alt="events">
+                     </div>
+                     <div class="event-details">
+                         <h3>Nepal Earthquake Clean Water Initiative.</h3>
+                         <div class="event-info">
+                             <p><i class="ti-calendar"></i>Started On: 12:00 PM.</p>
+                             <p><i class="ti-location-pin"></i>Grand Mahal, Dubai 2100.</p>
+                         </div>
+                         <p>Help today because tomorrow you may be the one who needs more helping!</p>
+                         <a href="#" class="default-btn">Read More</a>
+                     </div>
+                 </div><!-- Event-3 -->
+             </div>
+        </div>
+     </section><!-- Events Section -->
+     
+     <script src="./js/jquery-1.12.4.min.js"></script>
+     <script src="./js/owl.carousel.min.js"></script>
+     <script> $('#event-carousel').owlCarousel({
+        loop: true,
+        margin: 15,
+        autoplay: false,
+        smartSpeed: 500,
+        nav: true,
+        navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right"></i>'],
+        dots: false,
+        responsive : {
+            0 : {
+                items: 1
+            },
+            480 : {
+                items: 1,
+            },
+            768 : {
+                items: 2,
+            },
+            992 : {
+                items: 2,
+            }
+        }
+    });  </script>
+</body>
+</html>
